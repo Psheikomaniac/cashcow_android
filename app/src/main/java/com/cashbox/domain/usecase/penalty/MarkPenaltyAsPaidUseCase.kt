@@ -19,6 +19,7 @@ class MarkPenaltyAsPaidUseCase @Inject constructor(
      * @return Result containing the updated penalty or an error
      */
     suspend operator fun invoke(id: String, paidAt: Instant = Instant.now()): Result<Penalty> {
-        return penaltyRepository.markPenaltyAsPaid(id, paidAt)
+        // Note: paidAt is captured but not used in the repository call as the API handles the timestamp
+        return penaltyRepository.markPenaltyAsPaid(id)
     }
 }
