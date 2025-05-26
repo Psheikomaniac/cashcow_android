@@ -1,0 +1,44 @@
+<resources>
+    <!-- Base application theme for dark mode -->
+    <style name="Theme.Cashbox" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">#6DDBBA</item>
+        <item name="colorOnPrimary">#00382A</item>
+        <item name="colorPrimaryContainer">#00513D</item>
+        <item name="colorOnPrimaryContainer">#89F8D3</item>
+        
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">#B3CCBF</item>
+        <item name="colorOnSecondary">#1F352B</item>
+        <item name="colorSecondaryContainer">#354B41</item>
+        <item name="colorOnSecondaryContainer">#CFE9DB</item>
+        
+        <!-- Tertiary brand color -->
+        <item name="colorTertiary">#A6CCE0</item>
+        <item name="colorOnTertiary">#0A3544</item>
+        <item name="colorTertiaryContainer">#274B5C</item>
+        <item name="colorOnTertiaryContainer">#C2E8FD</item>
+        
+        <!-- Error color -->
+        <item name="colorError">#FFB4AB</item>
+        <item name="colorOnError">#690005</item>
+        <item name="colorErrorContainer">#93000A</item>
+        <item name="colorOnErrorContainer">#FFDAD6</item>
+        
+        <!-- Background colors -->
+        <item name="android:colorBackground">#191C1A</item>
+        <item name="colorOnBackground">#E1E3DF</item>
+        
+        <!-- Surface colors -->
+        <item name="colorSurface">#191C1A</item>
+        <item name="colorOnSurface">#E1E3DF</item>
+        <item name="colorSurfaceVariant">#404943</item>
+        <item name="colorOnSurfaceVariant">#C0C9C1</item>
+        <item name="colorOutline">#8A938C</item>
+        
+        <!-- Status bar and navigation bar -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>
