@@ -27,4 +27,8 @@
     <string name="confirm_password">Confirm Password</string>
     <string name="forgot_password">Forgot Password?</string>
     <string name="logout">Logout</string>
+    <string name="no_penalties_found">No penalties found</string>
+    <string name="add_penalty">Add penalty</string>
+    <string name="paid">Paid</string>
+    <string name="unpaid">Unpaid</string>
 </resources>
